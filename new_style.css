@@ -19,6 +19,8 @@ position: relative;
   background-image: url("bg.jpg");
   background-size: cover;
   background-position: center;
+  background: rgb(9,129,212);
+  background: radial-gradient(circle, rgba(9,129,212,1) 0%, rgba(231,91,89,1) 14%, rgba(228,251,63,1) 100%);
 }
 
 .header {
