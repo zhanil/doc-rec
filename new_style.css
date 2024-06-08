@@ -1,0 +1,138 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  z-index: 100;
+  padding: 0 20px;
+}
+
+.nav {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nav,
+.nav_item {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_logo,
+.nav_link,
+.button {
+  color: #fff;
+}
+
+.nav_logo {
+  font-size: 25px;
+}
+
+.nav_item {
+  column-gap: 25px;
+}
+
+.nav_link:hover {
+  color: #d9d9d9;
+}
+
+.button {
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  background: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Document Recognition Form */
+
+.document_recognition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form_container {
+  width: 400px;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  text-align: center;
+}
+
+.form h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.input_box {
+  margin-bottom: 20px;
+}
+
+.input_box label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.input_box input,
+.input_box textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+#result {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
