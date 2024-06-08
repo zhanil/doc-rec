@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $backside_uploaded = move_uploaded_file($backside_file["tmp_name"], $backside_path);
 
     if ($frontside_uploaded && $backside_uploaded) {
-        $to = "t.dinar.s@mail.ru";
+        $to = "zhakaon@mail.ru";
         $subject = "Новые документы для распознавания";
         $boundary = md5(time());
         $headers = "From: no-reply@mydomain.ru\r\n";
